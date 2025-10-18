@@ -1,0 +1,16 @@
+.Nav{
+    direction: rtl;
+    color: #f5d76e !important;
+    min-height: 70px !important;
+    background-color:hsl(182.81deg 60.38% 20.78%) !important; ;
+}
+.navBrand{
+    color: white !important;
+    font-size: 26px !important;
+    font-family: 'Amiri', serif !;
+  
+}
+.navToggler{
+    background-color: white   !important;
+    
+}

@@ -1,0 +1,109 @@
+.surahDetailes{
+     background-color: hsl(44deg 31.91% 90.78%);
+     min-height: 75vh;
+     font-family: 'Amiri', serif; /* خط عربي جميل */
+       direction: rtl;
+}
+
+
+.surah{
+    background-color: #ffffe9;
+   
+    padding-top: 10px;
+    margin: 5px 0;
+    color: hsl(182.81deg 60.38% 20.78%);
+    transition: all 0.5s ease-in-out;
+    
+}
+.aya{
+  line-height: 30px;
+}
+.surah:hover{
+    background-color: hsl(183, 32%, 37%);
+    color: hsl(44deg 31.91% 90.78%);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.head{
+   background-color: hsl(182.81deg 60.38% 20.78%);
+   color: #f5d76e;
+   border: 2px solid #d4af37; /* إطار ذهبي */
+   box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+   margin-top: 2px;
+
+  
+}
+.ayahDecor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color: #f5d76e;
+   
+}
+
+.decor {
+  font-size: 28px;
+  color: #d4af37;
+}
+
+.highlight {
+  background-color: rgba(255, 215, 0, 0.2);
+  transition: background-color 1s ease;
+}
+
+.activeAyah {
+  border: 2px solid #f1c40f;
+  border-radius: 10px;
+
+}
+
+
+
+.right {
+  display: flex;
+}
+
+.num h5 {
+  margin: 0;
+  font-size: 18px;
+  /* background-color:   #f5d76e;
+  color: hsl(182.81deg 60.38% 20.78%);
+  border-radius: 10%; 
+  border: 2px solid #f5d76e;  */
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.surahDetailes {
+  direction: rtl;
+  font-family: "Amiri", serif;
+}
+
+.tafseerWrapper {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.5s ease;
+}
+
+.showTafseer {
+  max-height: 800px; /* ارتفاع كافي للتفسير */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tafseerBox {
+  background: #e5e5e5;
+  border-right: 4px solid #d4af37;
+  padding: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  line-height: 1.9;
+  color: #222;
+}

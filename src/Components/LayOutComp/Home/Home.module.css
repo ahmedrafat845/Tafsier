@@ -1,0 +1,71 @@
+.home {
+  /* background-color: hsl(182.81deg 60.38% 20.78%); */
+  background: url("../../../assets/quran.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: calc(100vh - 70px);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: 'Amiri', serif;
+  padding: 20px;
+}
+
+.overlay {
+  background: rgba(21, 82, 85,.8);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 700px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(223, 255, 83, 0.4);
+}
+
+.title {
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+  color: #f5d76e;
+}
+
+.caption {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.features li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.footerNote {
+  font-size: 1rem;
+  color: #dff9fb;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.btn {
+  background: linear-gradient(135deg, #d4af37, #f7e27d);
+  color: #222;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #f7e27d, #d4af37);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.4);
+}
