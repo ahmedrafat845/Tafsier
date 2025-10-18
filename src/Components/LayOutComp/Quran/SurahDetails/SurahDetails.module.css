@@ -2,7 +2,7 @@
      background-color: hsl(44deg 31.91% 90.78%);
      min-height: 75vh;
      font-family: 'Amiri', serif; /* خط عربي جميل */
-       direction: rtl;
+     direction: rtl;
 }
 
 
@@ -13,7 +13,7 @@
     margin: 5px 0;
     color: hsl(182.81deg 60.38% 20.78%);
     transition: all 0.5s ease-in-out;
-  
+    border-right: 4px solid #d4af37;
     
 }
 .aya{
